@@ -26,13 +26,13 @@ public class BackgroundController : MonoBehaviour
 
     void DisableObstacles()
     {
-        Player1[] players = Object.FindObjectsByType<Player1>(FindObjectsSortMode.None);
+        Obstacle[] obstacles = Object.FindObjectsByType<Obstacle>(FindObjectsSortMode.None);
         string toDisable = "Color" + currentColor;
         string toEnable = "Color" + (currentColor + 1) % colors.Length;
-        foreach (Player1 player in players)
+        foreach (Obstacle obstacle in obstacles)
         {
-            if (player.gameObject.tag==toDisable) player.gameObject.SetActive(false);
-            else if (player.gameObject.tag == toEnable) player.gameObject.SetActive(true);
+            if (obstacle.gameObject.tag==toDisable) obstacle.gameObject.SetActive(false);
+            else if (obstacle.gameObject.tag == toEnable) obstacle.gameObject.SetActive(true);
         }
     }
 }
