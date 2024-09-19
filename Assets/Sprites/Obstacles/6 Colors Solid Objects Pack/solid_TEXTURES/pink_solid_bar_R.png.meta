@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pink_solid_bar_R_0: -4930054052075890547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
