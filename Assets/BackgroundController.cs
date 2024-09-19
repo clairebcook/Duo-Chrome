@@ -20,6 +20,16 @@ public class BackgroundController : MonoBehaviour
         {
             currentColor = (currentColor + 1) % colors.Length;
             cam.backgroundColor = colors[currentColor];
+            DisableObstacles();
+        }
+    }
+
+    void DisableObstacles()
+    {
+        Player1[] players = Object.FindObjectsByType<Player1>(FindObjectsSortMode.None);
+        foreach (Player1 player in players)
+        {
+            player.gameObject.SetActive(false);
         }
     }
 }
