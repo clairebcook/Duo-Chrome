@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 480510365}
   - component: {fileID: 480510364}
   - component: {fileID: 480510363}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +594,7 @@ GameObject:
   - component: {fileID: 1709328996}
   - component: {fileID: 1709328995}
   - component: {fileID: 1709328994}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +840,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2109790831
 BoxCollider2D:
   m_ObjectHideFlags: 0
