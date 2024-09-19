@@ -1,13 +1,13 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(BoxCollider2D))]
-[RequireComponent(typeof(SpriteRenderer))]
 public class Player1 : MonoBehaviour
 {
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private SpriteRenderer spriteRenderer;
+
+    private Animator animator;
 
     // Player movement settings
     public float moveSpeed = 5f;
@@ -23,6 +23,7 @@ public class Player1 : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -49,6 +50,13 @@ public class Player1 : MonoBehaviour
         if (moveInput != 0)
         {
             spriteRenderer.flipX = moveInput < 0;
+        } 
+
+        // check if sprite should be set to running
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) {
+            animator.SetBool("isRunning", true);
+        } else {
+            animator.SetBool("isRunning", false);
         }
     }
 
