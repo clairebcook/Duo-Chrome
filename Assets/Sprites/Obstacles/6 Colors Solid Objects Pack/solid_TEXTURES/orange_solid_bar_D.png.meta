@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      orange_solid_bar_D_0: -3512880640054212948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
