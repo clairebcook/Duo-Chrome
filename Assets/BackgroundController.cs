@@ -11,6 +11,7 @@ public class BackgroundController : MonoBehaviour
     void Start()
     {
         cam.backgroundColor = colors[0];
+        DisableObstacles(1, 0);
     }
 
     // Update is called once per frame
@@ -18,17 +19,21 @@ public class BackgroundController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            DisableObstacles();
-            currentColor = (currentColor + 1) % colors.Length;
+            int nextColor = (currentColor + 1) % colors.Length;
+            DisableObstacles(currentColor, nextColor);
+            currentColor = nextColor;
             cam.backgroundColor = colors[currentColor];
         }
     }
 
-    void DisableObstacles()
+    void DisableObstacles(int current, int next)
     {
-        Obstacle[] obstacles = Object.FindObjectsByType<Obstacle>(FindObjectsSortMode.None);
-        string toDisable = "Color" + currentColor;
-        string toEnable = "Color" + (currentColor + 1) % colors.Length;
+        Obstacle[] obstacles = Object.FindObjectsByType<Obstacle>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        Debug.Log("Obstacles: " + obstacles.Length);
+        string toDisable = "Color" + next;
+        Debug.Log("toDis: " + toDisable);
+        string toEnable = "Color" + current;
+        Debug.Log("toEnable: " + toEnable);
         foreach (Obstacle obstacle in obstacles)
         {
             if (obstacle.gameObject.tag==toDisable) obstacle.gameObject.SetActive(false);
