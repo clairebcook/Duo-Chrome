@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -7,12 +8,15 @@ public class Player1 : MonoBehaviour
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private SpriteRenderer spriteRenderer;
-
     private Animator animator;
+    private bool _active = true;
+    private Vector2 respawnPoint;
 
     // Player movement settings
+    [Header("Move and Jump Controls")]
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
+    
     public LayerMask groundLayer;
 
     // Ground check
@@ -29,19 +33,25 @@ public class Player1 : MonoBehaviour
 
     void Update()
     {
+        // If not active.. die
+        if (!_active) {
+            return;
+        }
+        
         isGrounded = IsGrounded();
-
-        // check for jump animation
-        animator.SetBool("Jumped", !isGrounded);
 
         // Handle movement
         Move();
+
+        // Handle Animation
+        ControlAnimation();
 
         // Handle jumping
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             Jump();
         }
+
     }
 
     void Move()
@@ -67,6 +77,12 @@ public class Player1 : MonoBehaviour
 
     }
 
+    // control what animation is playing at the given moment
+    void ControlAnimation() {
+        // check for jump animation
+        animator.SetBool("Jumped", !isGrounded);
+    }
+
     void Jump()
     {
         // Apply upward force to the Rigidbody2D
@@ -79,5 +95,30 @@ public class Player1 : MonoBehaviour
         RaycastHit2D raycastHit = Physics2D.Raycast(boxCollider.bounds.center, Vector2.down, boxCollider.bounds.extents.y + 0.1f, groundLayer);
         return raycastHit.collider != null;
 
+    }
+
+    // Handle Death
+    public void Die() {
+        // set active to false and have the player jump out of the level
+        _active = false;
+        boxCollider.enabled = false;
+        Jump();
+
+        // activate the respawn coroutine
+        StartCoroutine(Respawn());
+    }
+
+    // Handle respawn point
+    public void setRespawn(Vector2 respawn) {
+        respawnPoint = respawn;
+    }
+
+    // Coroutine for respawn
+    private IEnumerator Respawn() {
+        yield return new WaitForSeconds(1f);
+        transform.position = respawnPoint;
+        _active = true;
+        boxCollider.enabled = true;
+        Jump();
     }
 }
