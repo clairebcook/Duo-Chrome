@@ -163,7 +163,7 @@ TilemapCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: fa1f59e1ded924edaa9b1d8baaf3f780, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -448,7 +448,7 @@ TilemapCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: fa1f59e1ded924edaa9b1d8baaf3f780, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1050,7 +1050,7 @@ TilemapCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: fa1f59e1ded924edaa9b1d8baaf3f780, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1381,9 +1381,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8008267376483559893, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
+      propertyPath: m_Size.x
+      value: 0.2738902
+      objectReference: {fileID: 0}
+    - target: {fileID: -8008267376483559893, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
+      propertyPath: m_Size.y
+      value: 0.77389073
+      objectReference: {fileID: 0}
+    - target: {fileID: -8008267376483559893, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.00000017881393
+      objectReference: {fileID: 0}
+    - target: {fileID: -8008267376483559893, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6693996834683865228, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: -6211158428353224919, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
       propertyPath: jumpForce
-      value: 8
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1023070967746934318, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
       propertyPath: m_LocalPosition.x
