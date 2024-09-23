@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Player1 : MonoBehaviour
 {
@@ -28,6 +29,11 @@ public class Player1 : MonoBehaviour
 
     void Update()
     {
+        isGrounded = IsGrounded();
+
+        // check for jump animation
+        animator.SetBool("Jumped", !isGrounded);
+
         // Handle movement
         Move();
 
@@ -58,6 +64,7 @@ public class Player1 : MonoBehaviour
         } else {
             animator.SetBool("isRunning", false);
         }
+
     }
 
     void Jump()
@@ -71,5 +78,6 @@ public class Player1 : MonoBehaviour
         // Check if the player is touching the ground using a raycast
         RaycastHit2D raycastHit = Physics2D.Raycast(boxCollider.bounds.center, Vector2.down, boxCollider.bounds.extents.y + 0.1f, groundLayer);
         return raycastHit.collider != null;
+
     }
 }
