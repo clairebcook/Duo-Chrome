@@ -1737,20 +1737,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8008267376483559893, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
       propertyPath: m_Size.x
-      value: 0.2569402
+      value: 0.29506174
       objectReference: {fileID: 0}
     - target: {fileID: -8008267376483559893, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
       propertyPath: m_Size.y
-      value: 0.7512912
+      value: 0.797038
       objectReference: {fileID: 0}
     - target: {fileID: -8008267376483559893, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
       propertyPath: m_Offset.x
-      value: 0.0028254688
+      value: -0.0009866804
       objectReference: {fileID: 0}
     - target: {fileID: -8008267376483559893, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
       propertyPath: m_Offset.y
       value: -0.000000029802322
       objectReference: {fileID: 0}
+    - target: {fileID: -7291172751614532990, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7546237195518378858, guid: 668708e0175354e35add9738ac7c6d7c, type: 3}
     - target: {fileID: -6693996834683865228, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
       propertyPath: m_GravityScale
       value: 2
