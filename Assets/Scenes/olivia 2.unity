@@ -428,7 +428,7 @@ CompositeCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
@@ -1059,7 +1059,7 @@ CompositeCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
@@ -1215,8 +1215,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2084952935}
     - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1809452568}
+    - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
       propertyPath: switchKey
       value: 303
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
+      propertyPath: killRadius
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
       propertyPath: colors.Array.data[0].b
@@ -1617,7 +1625,7 @@ CompositeCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
@@ -1842,6 +1850,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1809452568 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -6211158428353224919, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
+  m_PrefabInstance: {fileID: 1458225460}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809452566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462305746b37747369d612b8ed538d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2084952933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,6 +1872,7 @@ GameObject:
   - component: {fileID: 2084952936}
   - component: {fileID: 2084952935}
   - component: {fileID: 2084952934}
+  - component: {fileID: 2084952937}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1934,6 +1954,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2084952937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084952933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
