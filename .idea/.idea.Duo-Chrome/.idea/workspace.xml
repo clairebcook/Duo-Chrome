@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b6ecd7d-6758-4605-90a9-272cd7aa001c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Duo-Chrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Duo-Chrome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player1Dash.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player1Dash.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MakeDeadly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MakeDeadly.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       <workItem from="1727103775299" duration="14000" />
       <workItem from="1727103930325" duration="457000" />
       <workItem from="1727104969751" duration="1102000" />
-      <workItem from="1727355981722" duration="5021000" />
+      <workItem from="1727355981722" duration="9192000" />
     </task>
     <servers />
   </component>

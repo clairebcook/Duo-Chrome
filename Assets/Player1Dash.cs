@@ -45,13 +45,30 @@ public class Player1Dash : MonoBehaviour
         if (!_active) {
             return;
         }
-        if(Input.GetKey(KeyCode.LeftShift) && canDash)
+        if (Input.GetKey(KeyCode.LeftShift) && canDash)
         {
-            
-            canDash = false;
-            StartCoroutine(Dash());
-            
+            // Handle air dash
+            if (!isGrounded && !hasDashedAir)
+            {
+                canDash = false;
+                hasDashedAir = true; // Mark that the air dash has been used
+                StartCoroutine(Dash());
+            }
+            // Handle ground dash
+            else if (isGrounded)
+            {
+                canDash = false;
+                StartCoroutine(Dash());
+                hasDashedAir = false; // Reset air dash when on the ground
+            }
         }
+
+        // Reset air dash when player lands on the ground
+        if (isGrounded && hasDashedAir)
+        {
+            hasDashedAir = false;
+        }
+
 
         isGrounded = IsGrounded();
         
@@ -86,7 +103,7 @@ public class Player1Dash : MonoBehaviour
         } 
 
         // check if sprite should be set to running
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) {
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) {
             animator.SetBool("isRunning", true);
         } else {
             animator.SetBool("isRunning", false);
@@ -162,35 +179,5 @@ public class Player1Dash : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
         
-       /*
-        float dashDirection = Input.GetAxisRaw("Horizontal");
-        float verticalVelocity = rb.linearVelocity.y;
-
-        if (dashDirection != 0)
-        {
-            rb.linearVelocity = new Vector2(dashDirection * dashingPower, 0f); 
-            tr.emitting = true;
-            yield return new WaitForSeconds(dashingTime);
-            tr.emitting = false;
-            rb.gravityScale = originalGravity;
-            
-            if (!isGrounded)
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, verticalVelocity);
-            }
-
-            isDashing = false;
-            yield return new WaitForSeconds(dashingCooldown);
-            canDash = true;
-        }
-        
-        else
-        
-        {
-            isDashing = false;
-            rb.gravityScale = originalGravity;
-            canDash = true;
-        }
-        */
     }
 }
