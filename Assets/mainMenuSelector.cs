@@ -1,16 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class mainMenuSelector : MonoBehaviour
+public class MainMenuController : MonoBehaviour
 {
+    public GameObject startButton;
+
     public void PlayGame()
     {
-        SceneManager.LoadScene("olivia 2");
-        //first level
+        SceneManager.LoadScene("tutorialLevel");
     }
-    public void OpenLevelSelect()
-    {
-        //ADD SCENE ONCE YOU MAKE IT
-    }
-
 }
+
