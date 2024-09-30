@@ -51,7 +51,7 @@ public class Player1 : MonoBehaviour
             return;
         }
 
-        dashInput = Input.GetKeyDown(KeyCode.LeftShift); 
+        dashInput = (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)); 
         isGrounded = IsGrounded();
 
         // Handle Dash
@@ -87,7 +87,7 @@ public class Player1 : MonoBehaviour
         ControlAnimation();
 
         // Handle jumping
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.UpArrow) && IsGrounded())
         {
             Jump();
         }

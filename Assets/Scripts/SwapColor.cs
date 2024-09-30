@@ -3,7 +3,10 @@ using UnityEngine;
 public class background_script : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
-    private bool isBlack = true;  // Track the current color state
+    private bool isMaterial1 = true;  // Track the current material state
+
+    public Material material1; // Assign this in the Inspector (e.g., black material)
+    public Material material2; // Assign this in the Inspector (e.g., white material)
 
     // Start is called before the first frame update
     void Start()
@@ -11,8 +14,8 @@ public class background_script : MonoBehaviour
         // Get the SpriteRenderer component attached to the GameObject
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        // Initially set the sprite color to black
-        spriteRenderer.color = Color.black;
+        // Initially set the material to material1
+        spriteRenderer.material = material1;
     }
 
     // Update is called once per frame
@@ -25,21 +28,21 @@ public class background_script : MonoBehaviour
         }
     }
 
-    // Change the sprite color from black to white or vice versa
+    // Swap the material between material1 and material2
     public void toggleBg()
     {
-        if (isBlack)
+        if (isMaterial1)
         {
-            // Change sprite color to white
-            spriteRenderer.color = Color.white;
+            // Change to material2
+            spriteRenderer.material = material2;
         }
         else
         {
-            // Change sprite color back to black
-            spriteRenderer.color = Color.black;
+            // Change back to material1
+            spriteRenderer.material = material1;
         }
 
         // Toggle the state
-        isBlack = !isBlack;
+        isMaterial1 = !isMaterial1;
     }
 }
