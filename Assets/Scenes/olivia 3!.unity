@@ -4128,6 +4128,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: dashingTime
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: dashingCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: dashingVelocity
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7601340581351080472, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
     m_RemovedGameObjects: []
@@ -4486,7 +4498,7 @@ PrefabInstance:
       objectReference: {fileID: 1193605895}
     - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
       propertyPath: switchKey
-      value: 303
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
       propertyPath: colors.Array.data[0].b
