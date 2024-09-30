@@ -570,7 +570,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -579,6 +579,28 @@ TextureImporter:
       bones: []
       spriteID: 17f4494a9b6d0499baa768f20617cc03
       internalID: 2069099379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bit_pack0_byAMProjects_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4860689c5fd21403f8f53b70e07d9bfe
+      internalID: -1330626220
       vertices: []
       indices: 
       edges: []
@@ -612,6 +634,7 @@ TextureImporter:
       1bit_pack0_byAMProjects_2: 1992258400
       1bit_pack0_byAMProjects_20: -453672134
       1bit_pack0_byAMProjects_21: 2069099379
+      1bit_pack0_byAMProjects_22: -1330626220
       1bit_pack0_byAMProjects_3: 1881870799
       1bit_pack0_byAMProjects_4: 658181704
       1bit_pack0_byAMProjects_5: 33448761

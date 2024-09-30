@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: 1554097988963217631, guid: c9ded3d45376348b7873905c4762c16c, type: 3}
       propertyPath: 'Swatches.Array.data[0]'
       value: 
-      objectReference: {fileID: -619123096711913078, guid: d10b289a6865a45dca3e998d613e2001, type: 3}
+      objectReference: {fileID: -2483140554499575598, guid: d10b289a6865a45dca3e998d613e2001, type: 3}
     - target: {fileID: 1554097988963217631, guid: c9ded3d45376348b7873905c4762c16c, type: 3}
       propertyPath: 'Swatches.Array.data[1]'
       value: 
