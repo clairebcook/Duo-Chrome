@@ -22,7 +22,6 @@ public class Player1 : MonoBehaviour
     [Header("Dashing")]
     public float dashingVelocity;
     public float dashingTime;
-    public float dashingCooldown;
     private Vector2 dashingDir;
     private bool isDashing;
     private bool canDash = true;
@@ -51,7 +50,7 @@ public class Player1 : MonoBehaviour
             return;
         }
 
-        dashInput = (Input.GetKeyDown(KeyCode.LeftShift)); 
+        dashInput = Input.GetKeyDown(KeyCode.LeftShift); 
         isGrounded = IsGrounded();
 
         // Handle Dash
@@ -109,7 +108,7 @@ public class Player1 : MonoBehaviour
         } 
 
         // check if sprite should be set to running
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D)) {
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) {
             animator.SetBool("isRunning", true);
         } else {
             animator.SetBool("isRunning", false);

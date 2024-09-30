@@ -12,4 +12,14 @@ public class MainMenuController : MonoBehaviour
     {
         SceneManager.LoadScene("levelSelect");
     }
+
+    public void OpenControls()
+    {
+        SceneManager.LoadScene("gameControls");
+    }
+
+    public void OpenSettings()
+    {
+        SceneManager.LoadScene("settings");
+    }
 }
