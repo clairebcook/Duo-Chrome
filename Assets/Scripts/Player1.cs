@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class Player1 : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private BoxCollider2D boxCollider;
+    private CircleCollider2D boxCollider;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private TrailRenderer trail;
@@ -37,7 +37,7 @@ public class Player1 : MonoBehaviour
     {
         // Getting components
         rb = GetComponent<Rigidbody2D>();
-        boxCollider = GetComponent<BoxCollider2D>();
+        boxCollider = GetComponent<CircleCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         trail = GetComponent<TrailRenderer>();
