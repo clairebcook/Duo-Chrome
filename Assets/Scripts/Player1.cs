@@ -51,7 +51,7 @@ public class Player1 : MonoBehaviour
             return;
         }
 
-        dashInput = (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)); 
+        dashInput = (Input.GetKeyDown(KeyCode.LeftShift)); 
         isGrounded = IsGrounded();
 
         // Handle Dash
@@ -87,7 +87,7 @@ public class Player1 : MonoBehaviour
         ControlAnimation();
 
         // Handle jumping
-        if (Input.GetKeyDown(KeyCode.UpArrow) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             Jump();
         }
@@ -109,7 +109,7 @@ public class Player1 : MonoBehaviour
         } 
 
         // check if sprite should be set to running
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) {
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D)) {
             animator.SetBool("isRunning", true);
         } else {
             animator.SetBool("isRunning", false);
