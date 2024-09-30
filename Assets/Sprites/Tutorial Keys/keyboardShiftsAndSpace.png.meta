@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 33b88f86317fa4018b39c8992cf879b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1600620080650000571
+    second: keyboardShiftsAndSpace_0
+  - first:
+      213: 5426722867852473222
+    second: keyboardShiftsAndSpace_1
+  - first:
+      213: 2378514220580062435
+    second: keyboardShiftsAndSpace_2
+  - first:
+      213: -2659764007066772496
+    second: keyboardShiftsAndSpace_3
+  - first:
+      213: -6686362648704509313
+    second: keyboardShiftsAndSpace_4
+  - first:
+      213: 1572308797423243660
+    second: keyboardShiftsAndSpace_5
+  - first:
+      213: -1577771728981374595
+    second: keyboardShiftsAndSpace_6
+  - first:
+      213: -3938321685641837129
+    second: keyboardShiftsAndSpace_7
+  - first:
+      213: -5957241252943956712
+    second: keyboardShiftsAndSpace_8
+  - first:
+      213: 176945349071892198
+    second: keyboardShiftsAndSpace_9
+  - first:
+      213: 6672941884478759211
+    second: keyboardShiftsAndSpace_10
+  - first:
+      213: -1297015887040626312
+    second: keyboardShiftsAndSpace_11
+  - first:
+      213: -6787660296664480481
+    second: keyboardShiftsAndSpace_12
+  - first:
+      213: 816317866518719382
+    second: keyboardShiftsAndSpace_13
+  - first:
+      213: -3532444495934988427
+    second: keyboardShiftsAndSpace_14
+  - first:
+      213: 2722411241199922524
+    second: keyboardShiftsAndSpace_15
+  - first:
+      213: 6389282064394773777
+    second: keyboardShiftsAndSpace_16
+  - first:
+      213: -3675373825901126940
+    second: keyboardShiftsAndSpace_17
+  - first:
+      213: -3868791941207997239
+    second: keyboardShiftsAndSpace_18
+  - first:
+      213: 5297428550309166321
+    second: keyboardShiftsAndSpace_19
+  - first:
+      213: 1636785495261134064
+    second: keyboardShiftsAndSpace_20
+  - first:
+      213: -6174728890508806502
+    second: keyboardShiftsAndSpace_21
+  - first:
+      213: -8850828081373451552
+    second: keyboardShiftsAndSpace_22
+  - first:
+      213: -4550156689000623303
+    second: keyboardShiftsAndSpace_23
+  - first:
+      213: -3512388248262561944
+    second: keyboardShiftsAndSpace_24
+  - first:
+      213: -2579132343126591586
+    second: keyboardShiftsAndSpace_25
+  - first:
+      213: 2798700246187006454
+    second: keyboardShiftsAndSpace_26
+  - first:
+      213: -5820542307321801156
+    second: keyboardShiftsAndSpace_27
+  - first:
+      213: 8307265373416102104
+    second: keyboardShiftsAndSpace_28
+  - first:
+      213: 8254976449910435591
+    second: keyboardShiftsAndSpace_29
+  - first:
+      213: -6594690377075198681
+    second: keyboardShiftsAndSpace_30
+  - first:
+      213: -2187808384904081140
+    second: keyboardShiftsAndSpace_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 113
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547ef70648479c9e0800000000000000
+      internalID: -1600620080650000571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 113
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683f5d042b79f4b40800000000000000
+      internalID: 5426722867852473222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 113
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4c3eae41e220120800000000000000
+      internalID: 2378514220580062435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 113
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb5a644abe961bd0800000000000000
+      internalID: -2659764007066772496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a178cc8944533a0800000000000000
+      internalID: -6686362648704509313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 97
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8152a35586f1d510800000000000000
+      internalID: 1572308797423243660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 97
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79496dc8f0aa1ae0800000000000000
+      internalID: -1577771728981374595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5c9140b454859c0800000000000000
+      internalID: -3938321685641837129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 81
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815f8fca4a0a35da0800000000000000
+      internalID: -5957241252943956712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 81
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee66148bd2a47200800000000000000
+      internalID: 176945349071892198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 81
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21ae270a4d0b9c50800000000000000
+      internalID: 6672941884478759211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 81
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871c7e03ce2100ee0800000000000000
+      internalID: -1297015887040626312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 65
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f158a493ce26dc1a0800000000000000
+      internalID: -6787660296664480481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 65
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b27a946c4245b00800000000000000
+      internalID: 816317866518719382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 65
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fd207527c3afec0800000000000000
+      internalID: -3532444495934988427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 65
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d60449992f7c520800000000000000
+      internalID: 2722411241199922524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 49
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115660a8f2a4ba850800000000000000
+      internalID: 6389282064394773777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 49
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea15627af27efcc0800000000000000
+      internalID: -3675373825901126940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4476a2a3a4f4ac0800000000000000
+      internalID: -3868791941207997239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 49
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcb034133f348940800000000000000
+      internalID: 5297428550309166321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc3d826cb707b610800000000000000
+      internalID: 1636785495261134064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 33
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9671e80ac4fe4aa0800000000000000
+      internalID: -6174728890508806502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 33
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eaeea1f0ca8b2580800000000000000
+      internalID: -8850828081373451552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_23
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93310cf59989ad0c0800000000000000
+      internalID: -4550156689000623303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 17
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fad056f7d714fc0800000000000000
+      internalID: -3512388248262561944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 17
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97f73b7cc4153cd0800000000000000
+      internalID: -2579132343126591586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 17
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f956c6bb0bf6d620800000000000000
+      internalID: 2798700246187006454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 17
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3693fb2c97493fa0800000000000000
+      internalID: -5820542307321801156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d89e55e7d5594370800000000000000
+      internalID: 8307265373416102104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_29
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f602e28519f8270800000000000000
+      internalID: 8254976449910435591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725febeca04fa74a0800000000000000
+      internalID: -6594690377075198681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardShiftsAndSpace_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01db2d8dd753a1e0800000000000000
+      internalID: -2187808384904081140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      keyboardShiftsAndSpace_0: -1600620080650000571
+      keyboardShiftsAndSpace_1: 5426722867852473222
+      keyboardShiftsAndSpace_10: 6672941884478759211
+      keyboardShiftsAndSpace_11: -1297015887040626312
+      keyboardShiftsAndSpace_12: -6787660296664480481
+      keyboardShiftsAndSpace_13: 816317866518719382
+      keyboardShiftsAndSpace_14: -3532444495934988427
+      keyboardShiftsAndSpace_15: 2722411241199922524
+      keyboardShiftsAndSpace_16: 6389282064394773777
+      keyboardShiftsAndSpace_17: -3675373825901126940
+      keyboardShiftsAndSpace_18: -3868791941207997239
+      keyboardShiftsAndSpace_19: 5297428550309166321
+      keyboardShiftsAndSpace_2: 2378514220580062435
+      keyboardShiftsAndSpace_20: 1636785495261134064
+      keyboardShiftsAndSpace_21: -6174728890508806502
+      keyboardShiftsAndSpace_22: -8850828081373451552
+      keyboardShiftsAndSpace_23: -4550156689000623303
+      keyboardShiftsAndSpace_24: -3512388248262561944
+      keyboardShiftsAndSpace_25: -2579132343126591586
+      keyboardShiftsAndSpace_26: 2798700246187006454
+      keyboardShiftsAndSpace_27: -5820542307321801156
+      keyboardShiftsAndSpace_28: 8307265373416102104
+      keyboardShiftsAndSpace_29: 8254976449910435591
+      keyboardShiftsAndSpace_3: -2659764007066772496
+      keyboardShiftsAndSpace_30: -6594690377075198681
+      keyboardShiftsAndSpace_31: -2187808384904081140
+      keyboardShiftsAndSpace_4: -6686362648704509313
+      keyboardShiftsAndSpace_5: 1572308797423243660
+      keyboardShiftsAndSpace_6: -1577771728981374595
+      keyboardShiftsAndSpace_7: -3938321685641837129
+      keyboardShiftsAndSpace_8: -5957241252943956712
+      keyboardShiftsAndSpace_9: 176945349071892198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

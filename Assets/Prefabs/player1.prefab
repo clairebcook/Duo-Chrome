@@ -177,6 +177,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 5
+  dashingVelocity: 0
+  dashingTime: 0
+  dashingCooldown: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
