@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 88cc028f656fd0248b5e59ee2dec8698
+guid: b689df048f31b1e46936effead72597c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6326303358403785407
-    second: tutorial level thumbnail_0
+      213: -5714185018441334095
+    second: Settings text_0
+  - first:
+      213: 3517097097038507410
+    second: Settings text_1
+  - first:
+      213: -8020061213614913371
+    second: Settings text_2
+  - first:
+      213: 8308082612503888281
+    second: Settings text_3
+  - first:
+      213: -617113619838406795
+    second: Settings text_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tutorial level thumbnail_0
+      name: Settings text_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 726
-        height: 403
+        x: 100
+        y: 27
+        width: 133
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14d4bfc1d947438a0800000000000000
-      internalID: -6326303358403785407
+      spriteID: 1b202f2300323b0b0800000000000000
+      internalID: -5714185018441334095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings text_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 27
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29da985ec2d3fc030800000000000000
+      internalID: 3517097097038507410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings text_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 27
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8489d71d403b090800000000000000
+      internalID: -8020061213614913371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings text_3
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 75
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991c4e23e1d3c4370800000000000000
+      internalID: 8308082612503888281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings text_4
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 19
+        width: 253
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fe97fae629f67f0800000000000000
+      internalID: -617113619838406795
       vertices: []
       indices: 
       edges: []
@@ -125,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tutorial level thumbnail_0: -6326303358403785407
+      Settings text_0: -5714185018441334095
+      Settings text_1: 3517097097038507410
+      Settings text_2: -8020061213614913371
+      Settings text_3: 8308082612503888281
+      Settings text_4: -617113619838406795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
