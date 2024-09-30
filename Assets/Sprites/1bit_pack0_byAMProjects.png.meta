@@ -346,9 +346,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 63
-        width: 17
-        height: 18
+        y: 64
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,9 +590,9 @@ TextureImporter:
         x: 64
         y: 48
         width: 16
-        height: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -601,6 +601,94 @@ TextureImporter:
       bones: []
       spriteID: 4860689c5fd21403f8f53b70e07d9bfe
       internalID: -1330626220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bit_pack0_byAMProjects_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afa776cad52a42daaa6d06f8d4c18e5
+      internalID: -347698976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bit_pack0_byAMProjects_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b23e1917eb74ca6aa9b0a70dc1826f
+      internalID: 1975775005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bit_pack0_byAMProjects_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4b91c84c39d463b9a3cb12ea2a63b6
+      internalID: -546069587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1bit_pack0_byAMProjects_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89101420e641427cae5d36d3372b1d3
+      internalID: 500306899
       vertices: []
       indices: 
       edges: []
@@ -635,6 +723,10 @@ TextureImporter:
       1bit_pack0_byAMProjects_20: -453672134
       1bit_pack0_byAMProjects_21: 2069099379
       1bit_pack0_byAMProjects_22: -1330626220
+      1bit_pack0_byAMProjects_23: -347698976
+      1bit_pack0_byAMProjects_24: 1975775005
+      1bit_pack0_byAMProjects_25: -546069587
+      1bit_pack0_byAMProjects_26: 500306899
       1bit_pack0_byAMProjects_3: 1881870799
       1bit_pack0_byAMProjects_4: 658181704
       1bit_pack0_byAMProjects_5: 33448761
