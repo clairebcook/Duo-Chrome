@@ -4072,6 +4072,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: player1
       objectReference: {fileID: 0}
+    - target: {fileID: 7601340581351080472, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: tr
+      value: 
+      objectReference: {fileID: 1193605898}
+    - target: {fileID: 7601340581351080472, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: jumpForce
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 7878921603408417444, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.11
@@ -4126,9 +4134,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1915196290630512863, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1193605897}
-    - targetCorrespondingSourceObject: {fileID: 1915196290630512863, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1193605898}
   m_SourcePrefab: {fileID: 100100000, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
 --- !u!114 &1193605895 stripped
@@ -4147,27 +4152,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878921603408417444, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
   m_PrefabInstance: {fileID: 1193605894}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1193605897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 263728067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7db60f451a25e84ea5d592de3fedaa3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dashingPower: 24
-  dashingTime: 0.2
-  dashingCooldown: 1
-  tr: {fileID: 1193605898}
-  moveSpeed: 5
-  jumpForce: 12
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!96 &1193605898
 TrailRenderer:
   serializedVersion: 3
