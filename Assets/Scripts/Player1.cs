@@ -109,7 +109,7 @@ public class Player1 : MonoBehaviour
         } 
 
         // check if sprite should be set to running
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D)) {
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) {
             animator.SetBool("isRunning", true);
         } else {
             animator.SetBool("isRunning", false);
