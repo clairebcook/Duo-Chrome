@@ -1,16 +1,16 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class mainMenuSelector : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void PlayGame()
     {
-        
+        SceneManager.LoadScene("olivia 2");
+        //first level
+    }
+    public void OpenLevelSelect()
+    {
+        //ADD SCENE ONCE YOU MAKE IT
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
