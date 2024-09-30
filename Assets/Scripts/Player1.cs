@@ -22,7 +22,6 @@ public class Player1 : MonoBehaviour
     [Header("Dashing")]
     public float dashingVelocity;
     public float dashingTime;
-    public float dashingCooldown;
     private Vector2 dashingDir;
     private bool isDashing;
     private bool canDash = true;
@@ -51,7 +50,7 @@ public class Player1 : MonoBehaviour
             return;
         }
 
-        dashInput = (Input.GetKeyDown(KeyCode.LeftShift)); 
+        dashInput = Input.GetKeyDown(KeyCode.LeftShift); 
         isGrounded = IsGrounded();
 
         // Handle Dash
