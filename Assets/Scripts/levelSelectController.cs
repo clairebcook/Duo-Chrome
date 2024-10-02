@@ -15,4 +15,9 @@ public class levelSelectController : MonoBehaviour
         //SceneManager.LoadScene("levelSelect");
         //use this one to add the first level once it is created
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
+    }
 }
