@@ -180,6 +180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 12
+  dashingVelocity: 0
+  dashingTime: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
