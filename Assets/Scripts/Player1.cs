@@ -6,12 +6,12 @@ using UnityEngine.InputSystem;
 public class Player1 : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private CircleCollider2D boxCollider;
+    private CapsuleCollider2D boxCollider;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private TrailRenderer trail;
     private bool _active = true;
-    private Vector2 respawnPoint;
+    public Vector2 respawnPoint;
 
     // Player movement settings
     [Header("Move and Jump Controls")]
@@ -37,7 +37,7 @@ public class Player1 : MonoBehaviour
     {
         // Getting components
         rb = GetComponent<Rigidbody2D>();
-        boxCollider = GetComponent<CircleCollider2D>();
+        boxCollider = GetComponent<CapsuleCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         trail = GetComponent<TrailRenderer>();
