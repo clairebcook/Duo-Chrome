@@ -2,6 +2,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class Player1 : MonoBehaviour
 {
@@ -32,6 +33,10 @@ public class Player1 : MonoBehaviour
     // Ground and Dash check
     private bool isGrounded;
     private bool dashInput;
+
+    // player box collider settings
+    public Vector2 boxSize;
+    public float castDistance;
 
     void Start()
     {
@@ -86,7 +91,7 @@ public class Player1 : MonoBehaviour
         ControlAnimation();
 
         // Handle jumping
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded != false)
         {
             Jump();
         }
@@ -117,22 +122,23 @@ public class Player1 : MonoBehaviour
 
     // control what animation is playing at the given moment
     void ControlAnimation() {
-        // check for jump animation
         animator.SetBool("Jumped", !isGrounded);
     }
 
     void Jump()
     {
-        // Apply upward force to the Rigidbody2D
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
     }
 
     bool IsGrounded()
     {
         // Check if the player is touching the ground using a raycast
-        RaycastHit2D raycastHit = Physics2D.Raycast(boxCollider.bounds.center, Vector2.down, boxCollider.bounds.extents.y + 0.1f, groundLayer);
-        return raycastHit.collider != null;
+        return Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer) != false;
+    }
 
+    // set up the wireframe box collider
+    private void OnDrawGizmos() {
+        Gizmos.DrawWireCube(transform.position - transform.up * castDistance, boxSize);
     }
 
     // Handle Death
