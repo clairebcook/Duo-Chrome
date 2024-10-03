@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b6ecd7d-6758-4605-90a9-272cd7aa001c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Duo-Chrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Duo-Chrome/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Kyle Workspace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Kyle Workspace.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <workItem from="1727103930325" duration="457000" />
       <workItem from="1727104969751" duration="1102000" />
       <workItem from="1727355981722" duration="11944000" />
-      <workItem from="1727707418909" duration="1450000" />
+      <workItem from="1727707418909" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="Dash">
       <option name="closed" value="true" />
