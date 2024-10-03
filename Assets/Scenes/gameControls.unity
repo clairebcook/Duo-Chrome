@@ -798,7 +798,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: player1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8008267376483559893, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1002,8 +1003,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.41666666
+  m_Offset: {x: -0.010338247, y: -0.077537894}
+  m_Radius: 0.30466753
 --- !u!1 &613617391
 GameObject:
   m_ObjectHideFlags: 0
