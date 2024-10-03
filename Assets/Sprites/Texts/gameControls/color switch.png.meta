@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 150ff8bbdba524e38992f91f6f67e920
+guid: d474ef31df9e54d76b67ef121ca0632b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6219740726096514941
-    second: color switch_0
+      213: -1309340819228816865
+    second: color switch (1)_0
   - first:
-      213: 1328652661936466100
-    second: color switch_1
+      213: -611067082779383677
+    second: color switch (1)_1
   - first:
-      213: -2189366502230294631
-    second: color switch_2
+      213: 1199800472701176176
+    second: color switch (1)_2
   - first:
-      213: 4944347544444627372
-    second: color switch_3
+      213: -7380083514615141683
+    second: color switch (1)_3
   - first:
-      213: 2134384744049888707
-    second: color switch_4
+      213: 6367479426620197276
+    second: color switch (1)_4
   - first:
-      213: -6591876065579957611
-    second: color switch_5
+      213: -5738253158566482373
+    second: color switch (1)_5
   - first:
-      213: -3495564620651123662
-    second: color switch_6
+      213: -303435953588163535
+    second: color switch (1)_6
   - first:
-      213: 5880783854527524791
-    second: color switch_7
+      213: 151377174681120453
+    second: color switch (1)_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: color switch_0
+      name: color switch (1)_0
       rect:
         serializedVersion: 2
         x: 282
@@ -149,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 380bcf163ca0fa9a0800000000000000
-      internalID: -6219740726096514941
+      spriteID: f1a82fb467944dde0800000000000000
+      internalID: -1309340819228816865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: color switch_1
+      name: color switch (1)_1
       rect:
         serializedVersion: 2
         x: 682
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b8a9987e82507210800000000000000
-      internalID: 1328652661936466100
+      spriteID: 388200dc9bd0587f0800000000000000
+      internalID: -611067082779383677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: color switch_2
+      name: color switch (1)_2
       rect:
         serializedVersion: 2
         x: 730
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99f7c6714cecd91e0800000000000000
-      internalID: -2189366502230294631
+      spriteID: 07903b05c2c86a010800000000000000
+      internalID: 1199800472701176176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: color switch_3
+      name: color switch (1)_3
       rect:
         serializedVersion: 2
         x: 786
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca962b835e9dd9440800000000000000
-      internalID: 4944347544444627372
+      spriteID: dcae5a2152da49990800000000000000
+      internalID: -7380083514615141683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: color switch_4
+      name: color switch (1)_4
       rect:
         serializedVersion: 2
         x: 146
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cd4b13cd9bde9d10800000000000000
-      internalID: 2134384744049888707
+      spriteID: c990e4a5dc4dd5850800000000000000
+      internalID: 6367479426620197276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: color switch_5
+      name: color switch (1)_5
       rect:
         serializedVersion: 2
         x: 410
@@ -259,14 +259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59205b3c4a3f484a0800000000000000
-      internalID: -6591876065579957611
+      spriteID: b3ea164a721ad50b0800000000000000
+      internalID: -5738253158566482373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: color switch_6
+      name: color switch (1)_6
       rect:
         serializedVersion: 2
         x: 530
@@ -281,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23caaa07f724d7fc0800000000000000
-      internalID: -3495564620651123662
+      spriteID: 13cab4e9b9af9cbf0800000000000000
+      internalID: -303435953588163535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: color switch_7
+      name: color switch (1)_7
       rect:
         serializedVersion: 2
         x: 666
@@ -303,8 +303,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bf27f902cdbc9150800000000000000
-      internalID: 5880783854527524791
+      spriteID: 5ce68f30dbcc91200800000000000000
+      internalID: 151377174681120453
       vertices: []
       indices: 
       edges: []
@@ -323,14 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      color switch_0: -6219740726096514941
-      color switch_1: 1328652661936466100
-      color switch_2: -2189366502230294631
-      color switch_3: 4944347544444627372
-      color switch_4: 2134384744049888707
-      color switch_5: -6591876065579957611
-      color switch_6: -3495564620651123662
-      color switch_7: 5880783854527524791
+      color switch (1)_0: -1309340819228816865
+      color switch (1)_1: -611067082779383677
+      color switch (1)_2: 1199800472701176176
+      color switch (1)_3: -7380083514615141683
+      color switch (1)_4: 6367479426620197276
+      color switch (1)_5: -5738253158566482373
+      color switch (1)_6: -303435953588163535
+      color switch (1)_7: 151377174681120453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

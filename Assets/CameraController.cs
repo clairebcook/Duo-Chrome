@@ -47,5 +47,12 @@ public class CameraController : MonoBehaviour
         }
         transform.position = targetPosition;
     }
-
+    
+    // camera switch method
+    public void changeMinMax(float minX, float maxX, float minY, float maxY) {
+        xMin = minX;
+        xMax = maxX;
+        yMin = minY;
+        yMax = maxY;
+    }
 }
