@@ -16,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/level select txt.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/level select txt.png.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/paused menu txt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Duo-Chrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Duo-Chrome/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/blocks/black_and_white.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/blocks/black_and_white.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/from scene1/player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/from scene1/player1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/player1.prefab" afterDir="false" />
@@ -145,7 +146,7 @@
       <workItem from="1727104969751" duration="1102000" />
       <workItem from="1727355981722" duration="11944000" />
       <workItem from="1727707418909" duration="1799000" />
-      <workItem from="1727966969296" duration="1608000" />
+      <workItem from="1727966969296" duration="1622000" />
     </task>
     <task id="LOCAL-00001" summary="Dash">
       <option name="closed" value="true" />
