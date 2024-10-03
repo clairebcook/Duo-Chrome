@@ -152,7 +152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 130}
+  m_AnchoredPosition: {x: 0, y: 159}
   m_SizeDelta: {x: 120.7603, y: 101.8631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &65746478
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 242322032}
   - component: {fileID: 242322031}
   m_Layer: 5
-  m_Name: LevelOneButton
+  m_Name: LevelTwoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 787975902}
   - component: {fileID: 787975901}
   m_Layer: 5
-  m_Name: LevelTwoButton
+  m_Name: LevelOneButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -565,7 +565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -30}
+  m_AnchoredPosition: {x: 150, y: -50}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &787975901
@@ -662,7 +662,7 @@ GameObject:
   - component: {fileID: 819779788}
   - component: {fileID: 819779787}
   m_Layer: 5
-  m_Name: LvlTwoButtonTxt
+  m_Name: LvlOneButtonTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -707,7 +707,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level Two
+  m_text: 'Level One
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -798,7 +800,7 @@ GameObject:
   - component: {fileID: 859788906}
   - component: {fileID: 859788905}
   m_Layer: 5
-  m_Name: LvlOneButtonTxt
+  m_Name: LvlTwoButtonTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -843,7 +845,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level One
+  m_text: Level Two
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1095,7 +1097,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: -30}
+  m_AnchoredPosition: {x: -150, y: -50}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1252973938
@@ -1546,8 +1548,8 @@ RectTransform:
   m_Children:
   - {fileID: 65746477}
   - {fileID: 1252973937}
-  - {fileID: 242322030}
   - {fileID: 787975900}
+  - {fileID: 242322030}
   - {fileID: 1362987461}
   - {fileID: 2134210627}
   - {fileID: 1798165953}
@@ -1729,7 +1731,7 @@ RectTransform:
   m_GameObject: {fileID: 2134210626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1.3333334, z: 1.3333334}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1788777856}
@@ -1759,7 +1761,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6326303358403785407, guid: 88cc028f656fd0248b5e59ee2dec8698, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2246a745bf8775e4598b58c846fefb93, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
