@@ -5,8 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b6ecd7d-6758-4605-90a9-272cd7aa001c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Duo-Chrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Duo-Chrome/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Background_Music.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Background_Music/Level background music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Background_Music/Level background music.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/tower level.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/tower level.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/duo chrome new txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/GameControls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/level select txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/level select txt.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/paused menu txt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/blocks/black_and_white.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/blocks/black_and_white.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/from scene1/player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/from scene1/player1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/player1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dylan_Workspace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dylan_Workspace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Olivia Workspace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/olivia level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Olivia Workspace.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/olivia level.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/gameControls.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/gameControls.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/keelin workspace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/keelin workspace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/levelSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/levelSelect.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/olivia 3!.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/olivia 3!.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/tutorialLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/tutorialLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/Level Selectionion txt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/Level Selectionion txt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/duo chrome new txt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/Paused text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/Paused text.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/paused menu txt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/GameControlsText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/GameControlsText.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/GameControls.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/backward.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/backward.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/backward.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/backward.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/color switch.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/color switch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/color switch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/color switch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/dash.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/dash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/dash.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/dash.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/forward.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/forward.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/forward.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/forward.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/jump.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/jump.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/jump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/jump.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/pause menu background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/pause menu background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/paused menu text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/paused menu text.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +84,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -104,7 +145,7 @@
       <workItem from="1727104969751" duration="1102000" />
       <workItem from="1727355981722" duration="11944000" />
       <workItem from="1727707418909" duration="1799000" />
-      <workItem from="1727966969296" duration="879000" />
+      <workItem from="1727966969296" duration="1608000" />
     </task>
     <task id="LOCAL-00001" summary="Dash">
       <option name="closed" value="true" />
