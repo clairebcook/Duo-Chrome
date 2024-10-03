@@ -4072,6 +4072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: player1
       objectReference: {fileID: 0}
+    - target: {fileID: 6109424793411640636, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7601340581351080472, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: tr
       value: 
@@ -4128,6 +4132,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: dashingTime
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: dashingCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: dashingVelocity
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7601340581351080472, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
     m_RemovedGameObjects: []
@@ -4136,6 +4152,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1915196290630512863, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1193605898}
+    - targetCorrespondingSourceObject: {fileID: 1915196290630512863, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1193605899}
   m_SourcePrefab: {fileID: 100100000, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
 --- !u!114 &1193605895 stripped
 MonoBehaviour:
@@ -4269,6 +4288,42 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 0
   m_ApplyActiveColorSpace: 1
+--- !u!58 &1193605899
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263728067}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.41666666
 --- !u!1 &1256744961
 GameObject:
   m_ObjectHideFlags: 0
@@ -4486,7 +4541,7 @@ PrefabInstance:
       objectReference: {fileID: 1193605895}
     - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
       propertyPath: switchKey
-      value: 303
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
       propertyPath: colors.Array.data[0].b
