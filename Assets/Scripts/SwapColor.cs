@@ -22,7 +22,7 @@ public class background_script : MonoBehaviour
     void Update()
     {
         // For testing purposes, you can call toggleBg when the space key is pressed
-        if (Input.GetKeyDown(KeyCode.RightShift))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             toggleBg();
         }
