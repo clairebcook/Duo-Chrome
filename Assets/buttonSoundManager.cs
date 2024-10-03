@@ -2,15 +2,20 @@ using UnityEngine;
 
 public class buttonSoundManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public static AudioClip flipSound, btnClickSound;
+    static AudioSource audioSource;
     void Start()
     {
-        
+        //flipSound = Resources.Load<AudioClip>("flipSound");
+        btnClickSound = Resources.Load<AudioClip>("Menu_Select2");
+        audioSource = GetComponent<AudioSource>();
     }
-
-    // Update is called once per frame
-    void Update()
+    /*public static void playFlipSound()
     {
-        
+        audioSource.PlayOneShot(flipSound);
+    }*/
+    public static void PlayBtnClickSound()
+    {
+        audioSource.PlayOneShot(btnClickSound);
     }
 }
