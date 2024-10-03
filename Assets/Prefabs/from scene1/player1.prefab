@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 462305746b37747369d612b8ed538d13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnPoint: {x: 0, y: 0}
   moveSpeed: 5
   jumpForce: 12
   dashingVelocity: 0
