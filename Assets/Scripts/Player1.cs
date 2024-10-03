@@ -91,7 +91,7 @@ public class Player1 : MonoBehaviour
         ControlAnimation();
 
         // Handle jumping
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded != false)
         {
             Jump();
         }
@@ -133,8 +133,7 @@ public class Player1 : MonoBehaviour
     bool IsGrounded()
     {
         // Check if the player is touching the ground using a raycast
-        return Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer) != true;
-
+        return Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer) != false;
     }
 
     // set up the wireframe box collider
