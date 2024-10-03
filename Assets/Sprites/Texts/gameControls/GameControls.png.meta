@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: e564c6d9405ca43edb86f3a442a16e6d
+guid: 8c62ae9a7b67a4669b69971808c617a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6392231495186140798
-    second: Game Controls (1)_0
+      213: 2429333982910299295
+    second: Game Controls (3)_0
   - first:
-      213: -4390495167151065144
-    second: Game Controls (1)_1
+      213: -6503392998979819859
+    second: Game Controls (3)_1
   - first:
-      213: 86385207132374589
-    second: Game Controls (1)_2
+      213: 1831329553017358528
+    second: Game Controls (3)_2
   - first:
-      213: 1334801287854826456
-    second: Game Controls (1)_3
+      213: 475188970110266296
+    second: Game Controls (3)_3
   - first:
-      213: -9025410204903316335
-    second: Game Controls (1)_4
+      213: -1091989967965656991
+    second: Game Controls (3)_4
   - first:
-      213: -3731199812754202644
-    second: Game Controls (1)_5
+      213: -2326642255091918609
+    second: Game Controls (3)_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Game Controls (1)_0
+      name: Game Controls (3)_0
       rect:
         serializedVersion: 2
         x: 157
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7e42a86da4c5b850800000000000000
-      internalID: 6392231495186140798
+      spriteID: f9c3724e26ab6b120800000000000000
+      internalID: 2429333982910299295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Game Controls (1)_1
+      name: Game Controls (3)_1
       rect:
         serializedVersion: 2
         x: 477
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c734e548e3d113c0800000000000000
-      internalID: -4390495167151065144
+      spriteID: da6ab0d168e4fb5a0800000000000000
+      internalID: -6503392998979819859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Game Controls (1)_2
+      name: Game Controls (3)_2
       rect:
         serializedVersion: 2
         x: 677
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3649f063e6e23100800000000000000
-      internalID: 86385207132374589
+      spriteID: 0c8464296803a6910800000000000000
+      internalID: 1831329553017358528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Game Controls (1)_3
+      name: Game Controls (3)_3
       rect:
         serializedVersion: 2
         x: 741
@@ -209,14 +209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d3225003ba268210800000000000000
-      internalID: 1334801287854826456
+      spriteID: 8bb2b94c9d5389600800000000000000
+      internalID: 475188970110266296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Game Controls (1)_4
+      name: Game Controls (3)_4
       rect:
         serializedVersion: 2
         x: 797
@@ -231,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1946d80cc3d4fb280800000000000000
-      internalID: -9025410204903316335
+      spriteID: 168ed15e8e878d0f0800000000000000
+      internalID: -1091989967965656991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Game Controls (1)_5
+      name: Game Controls (3)_5
       rect:
         serializedVersion: 2
         x: 869
@@ -253,8 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cef18cef98d183cc0800000000000000
-      internalID: -3731199812754202644
+      spriteID: fe815d1323b16bfd0800000000000000
+      internalID: -2326642255091918609
       vertices: []
       indices: 
       edges: []
@@ -273,12 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Game Controls (1)_0: 6392231495186140798
-      Game Controls (1)_1: -4390495167151065144
-      Game Controls (1)_2: 86385207132374589
-      Game Controls (1)_3: 1334801287854826456
-      Game Controls (1)_4: -9025410204903316335
-      Game Controls (1)_5: -3731199812754202644
+      Game Controls (3)_0: 2429333982910299295
+      Game Controls (3)_1: -6503392998979819859
+      Game Controls (3)_2: 1831329553017358528
+      Game Controls (3)_3: 475188970110266296
+      Game Controls (3)_4: -1091989967965656991
+      Game Controls (3)_5: -2326642255091918609
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

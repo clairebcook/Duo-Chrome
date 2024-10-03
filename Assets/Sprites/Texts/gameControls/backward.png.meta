@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 8412e3afe2f794779839dd305ab66670
+guid: 1668c05b15b15446fa78bbd4db674aaf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8034940132540223769
-    second: backward_0
+      213: 4662428087353439904
+    second: backward (1)_0
   - first:
-      213: 2195083781929935777
-    second: backward_1
+      213: 86110792809089627
+    second: backward (1)_1
   - first:
-      213: 1920724186943476574
-    second: backward_2
+      213: -5328808574428677310
+    second: backward (1)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: backward_0
+      name: backward (1)_0
       rect:
         serializedVersion: 2
         x: 100
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7eee86835882e7090800000000000000
-      internalID: -8034940132540223769
+      spriteID: 0a6718194a544b040800000000000000
+      internalID: 4662428087353439904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backward_1
+      name: backward (1)_1
       rect:
         serializedVersion: 2
         x: 492
@@ -156,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a3a722d111867e10800000000000000
-      internalID: 2195083781929935777
+      spriteID: b5a86b05f4de13100800000000000000
+      internalID: 86110792809089627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backward_2
+      name: backward (1)_2
       rect:
         serializedVersion: 2
         x: 548
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e53544ab878c7aa10800000000000000
-      internalID: 1920724186943476574
+      spriteID: 24b7f15b5d44c06b0800000000000000
+      internalID: -5328808574428677310
       vertices: []
       indices: 
       edges: []
@@ -198,9 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      backward_0: -8034940132540223769
-      backward_1: 2195083781929935777
-      backward_2: 1920724186943476574
+      backward (1)_0: 4662428087353439904
+      backward (1)_1: 86110792809089627
+      backward (1)_2: -5328808574428677310
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
