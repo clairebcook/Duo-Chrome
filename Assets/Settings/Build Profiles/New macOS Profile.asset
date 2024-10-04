@@ -19,8 +19,6 @@ MonoBehaviour:
     rid: 3122070308367368192
   m_Scenes:
   - m_enabled: 1
-    m_path: Assets/Scenes/SampleScene.unity
-  - m_enabled: 1
     m_path: Assets/Scenes/StartMenu.unity
   - m_enabled: 1
     m_path: Assets/Scenes/levelSelect.unity
