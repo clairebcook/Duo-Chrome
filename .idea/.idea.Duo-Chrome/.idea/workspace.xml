@@ -5,50 +5,149 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b6ecd7d-6758-4605-90a9-272cd7aa001c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Background_Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Background_Music/Level background music.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Background_Music/Level background music.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/tower level.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/tower level.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/duo chrome new txt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/GameControls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/level select txt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/level select txt.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/paused menu txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Background_Music/Main Menu BG Music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Background_Music/Main Menu BG Music.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Audio Manager.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Doorway.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pause Menu Prefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Pause Menu Prefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/winScreen.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DontDestroy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DontDestroy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MoveToLevel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MoveToLevel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/buttonSoundManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/winScreen.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/winScreen/Congratulations!.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/winScreen/Congratulations!.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/winScreen/You win!.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/winScreen/You win!.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/Level Thumbnails.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/Level Thumbnails/level one thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/Level Thumbnails/level one thumbnail.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/Level Thumbnails/level three thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/Level Thumbnails/level three thumbnail.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/Level Thumbnails/level two thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/Level Thumbnails/level two thumbnail.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Duo-Chrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Duo-Chrome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BackgroundController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BackgroundController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BackgroundController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BackgroundController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Checkpoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Checkpoint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Checkpoint.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Checkpoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Doorway.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Checkpoint.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Audio Manager.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/InputSystem_Actions.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvertedShader.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/InvertedShader.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvertedShader.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/InvertedShader.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Obstacle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PauseMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player1Dash.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player1Dash.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/blocks/black_and_white.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/blocks/black_and_white.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/from scene1/player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/from scene1/player1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/from scene1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/from scene1/player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/player1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/from scene1/player1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/player1.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/player1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dylan_Workspace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dylan_Workspace.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Olivia Workspace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/olivia level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Olivia Workspace.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/olivia level.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dylan_Workspace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/level2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dylan_Workspace.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/level2.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Kyle Workspace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Kyle Workspace.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/level1.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/winScreen.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/gameControls.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/gameControls.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/keelin workspace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/keelin workspace.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/levelSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/levelSelect.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/olivia 3!.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/olivia 3!.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/olivia 2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/olivia 2.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/olivia 3!.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/olivia 3!.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/olivia level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/level3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/olivia level.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/level3.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/tower level.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/tower level.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/tutorialLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/tutorialLevel.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/Level Selectionion txt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/Level Selectionion txt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/duo chrome new txt.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/Paused text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/Paused text.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/paused menu txt.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/GameControlsText.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/GameControlsText.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/GameControls.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/backward.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/backward.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/backward.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/backward.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/color switch.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/color switch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/color switch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/color switch.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/dash.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/dash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/dash.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/dash.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/forward.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/forward.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/forward.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/forward.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/jump.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/jump.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/jump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Texts/gameControls/jump.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/pause menu background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/pause menu background.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/paused menu text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/paused menu text.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwapColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwapColor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwapColorMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwapColorMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_0.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_0.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_0.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_1.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_12.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_12.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_12.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_12.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_13.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_13.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_13.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_13.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_14.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_14.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_14.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_14.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_16.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_16.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_16.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_16.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_18.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_18.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_18.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_18.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_19.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_19.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_19.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_19.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_20.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_20.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_20.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_20.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_23.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_23.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_23.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_23.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_5.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_6.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/1bit_pack0_byAMProjects_6.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/1bit_pack0_byAMProjects_6.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset.psb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset.psb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset.psb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset.psb.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_0.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_0.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_0.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_1.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_2.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_3.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_4.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Alt_tileset_5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Alt_tileset_5.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/GroundStuff.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/GroundStuff.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/GroundStuff.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/GroundStuff.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Layer 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Layer 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Layer 1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/Layer 1.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/New Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/New Palette.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/New Palette.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/New Palette.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/tutorial level thumbnail 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/Level Thumbnails/tutorial level thumbnail 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/tutorial level thumbnail 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI Sprites/Level Thumbnails/tutorial level thumbnail 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/flag.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/flag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/flag.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Black and White/flag.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/idle_run_2.psb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/idle_run_2.psb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/idle_run_2.psb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/idle_run_2.psb.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/idle_run_sheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/idle_run_sheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/idle_run_sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/idle_run_sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/idle_run_sheet.psb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/idle_run_sheet.psb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/idle_run_sheet.psb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/idle_run_sheet.psb.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/jumping_2.psb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/jumping_2.psb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/jumping_2.psb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/jumping_2.psb.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/buttonSoundManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/buttonSoundManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/buttonSoundManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/mainMenuSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/mainMenuSelector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/mainMenuSelector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/mainMenuSelector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/startMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/startMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/startMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/startMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +246,7 @@
       <workItem from="1727355981722" duration="11944000" />
       <workItem from="1727707418909" duration="1799000" />
       <workItem from="1727966969296" duration="1622000" />
+      <workItem from="1727970442161" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="Dash">
       <option name="closed" value="true" />
