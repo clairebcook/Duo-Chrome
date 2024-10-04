@@ -5,6 +5,7 @@ public class BackgroundController : MonoBehaviour
     public Camera cam;
     public Color[] colors;
     public Player1 player;
+    public AudioManager am;
 
     private int currentColor = 0;
 
@@ -24,6 +25,7 @@ public class BackgroundController : MonoBehaviour
             DisableObstacles(currentColor, nextColor);
             currentColor = nextColor;
             cam.backgroundColor = colors[currentColor];
+            am.playFlip();
         }
     }
 

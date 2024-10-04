@@ -19,8 +19,6 @@ MonoBehaviour:
     rid: 3122070308367368192
   m_Scenes:
   - m_enabled: 1
-    m_path: Assets/Scenes/SampleScene.unity
-  - m_enabled: 1
     m_path: Assets/Scenes/StartMenu.unity
   - m_enabled: 1
     m_path: Assets/Scenes/levelSelect.unity
@@ -30,12 +28,6 @@ MonoBehaviour:
     m_path: Assets/Scenes/settings.unity
   - m_enabled: 1
     m_path: Assets/Scenes/tutorialLevel.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Kyle Workspace.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Dylan_Workspace.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/olivia level.unity
   - m_enabled: 1
     m_path: Assets/Scenes/winScreen.unity
   m_ScriptingDefines: []
