@@ -3,12 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class MoveToLevel : MonoBehaviour
 {
-        private AudioManager am;
-        
-        public void Start() {
-            am = GetComponent<AudioManager>();
-        }
-        
+        public AudioManager am;
+                
        public string nextLevel;
        
        private void OnCollisionEnter2D(Collision2D other) {

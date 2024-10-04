@@ -29,12 +29,6 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/tutorialLevel.unity
   - m_enabled: 1
-    m_path: Assets/Scenes/Kyle Workspace.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Dylan_Workspace.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/olivia level.unity
-  - m_enabled: 1
     m_path: Assets/Scenes/winScreen.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
