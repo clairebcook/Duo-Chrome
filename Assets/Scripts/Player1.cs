@@ -12,7 +12,6 @@ public class Player1 : MonoBehaviour
     private Animator animator;
     private TrailRenderer trail;
     private bool _active = true;
-    public Vector2 respawnPoint;
 
     // Player movement settings
     [Header("Move and Jump Controls")]
@@ -27,7 +26,13 @@ public class Player1 : MonoBehaviour
     private bool isDashing;
     private bool canDash = true;
 
+    [Header("Respawn")]
+    public Vector2 respawnPoint;
+
+    [Header("Audio")]
+    public AudioManager am;
     
+    [Header("Ground")]
     public LayerMask groundLayer;
 
     // Ground and Dash check
@@ -35,6 +40,7 @@ public class Player1 : MonoBehaviour
     private bool dashInput;
 
     // player box collider settings
+    [Header("Collider")]
     public Vector2 boxSize;
     public float castDistance;
 
@@ -63,6 +69,7 @@ public class Player1 : MonoBehaviour
             isDashing = true;
             canDash = false;
             trail.emitting = true;
+            am.playDash();
             dashingDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             
             if (dashingDir == Vector2.zero) {
@@ -94,6 +101,7 @@ public class Player1 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded != false)
         {
             Jump();
+            am.playJump();
         }
 
     }
@@ -146,6 +154,7 @@ public class Player1 : MonoBehaviour
         // set active to false and have the player jump out of the level
         _active = false;
         boxCollider.enabled = false;
+        am.playDeath();
         Jump();
 
         // activate the respawn coroutine

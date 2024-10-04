@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Color0
   - Color1
+  - Audio
+  - BGMusic
   layers:
   - Default
   - TransparentFX
