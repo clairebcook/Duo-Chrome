@@ -729,7 +729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &733232159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 740106083}
   m_Layer: 0
   m_Name: Audio Managaer
-  m_TagString: Untagged
+  m_TagString: Audio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -799,7 +799,7 @@ MonoBehaviour:
   death: {fileID: 0}
   door: {fileID: 0}
   checkpoint: {fileID: 0}
-  colorFlip: {fileID: 0}
+  colorFlip: {fileID: 8300000, guid: 669c29cd46819804c9d4d650870e0707, type: 3}
   dash: {fileID: 0}
   jump: {fileID: 0}
 --- !u!4 &740106084
@@ -1362,6 +1362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158924458}
   - component: {fileID: 1158924457}
+  - component: {fileID: 1158924459}
   m_Layer: 0
   m_Name: Layer 3
   m_TagString: Untagged
@@ -1439,6 +1440,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1158924459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158924456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462305746b37747369d612b8ed538d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {x: 0, y: 0}
+  moveSpeed: 5
+  jumpForce: 10
+  dashingVelocity: 0
+  dashingTime: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  boxSize: {x: 0, y: 0}
+  castDistance: 0
 --- !u!1 &1338853763
 GameObject:
   m_ObjectHideFlags: 0

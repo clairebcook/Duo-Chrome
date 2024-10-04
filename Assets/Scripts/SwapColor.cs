@@ -8,6 +8,8 @@ public class background_script : MonoBehaviour
     public Material material1; // Assign this in the Inspector (e.g., black material)
     public Material material2; // Assign this in the Inspector (e.g., white material)
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
