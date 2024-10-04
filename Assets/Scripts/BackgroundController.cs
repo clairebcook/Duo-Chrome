@@ -4,7 +4,6 @@ public class BackgroundController : MonoBehaviour
 {
     public Camera cam;
     public Color[] colors;
-    public KeyCode switchKey;
     public Player1 player;
 
     private int currentColor = 0;
@@ -19,7 +18,7 @@ public class BackgroundController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(switchKey))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             int nextColor = (currentColor + 1) % colors.Length;
             DisableObstacles(currentColor, nextColor);
