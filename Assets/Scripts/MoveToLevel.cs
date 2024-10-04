@@ -3,13 +3,18 @@ using UnityEngine.SceneManagement;
 
 public class MoveToLevel : MonoBehaviour
 {
-        public string nextLevel;
+        private AudioManager am;
+        
+        public void Start() {
+            am = GetComponent<AudioManager>();
+        }
+        
+       public string nextLevel;
        
        private void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log("hi!");
         var player = other.collider.GetComponent<Player1>();
         if (player != null) {
-            Debug.Log("meow!");
+            am.playDoor();
             SceneManager.LoadScene(nextLevel);
         }
     }

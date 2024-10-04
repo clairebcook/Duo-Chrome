@@ -1274,12 +1274,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: boxSize.x
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: boxSize.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: dashingTime
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: castDistance
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: respawnPoint.x

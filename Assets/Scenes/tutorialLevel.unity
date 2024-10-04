@@ -11300,7 +11300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9146331834058330058, guid: 6739324f644c3404eb5f98bb6cdfb53f, type: 3}
       propertyPath: nextLevel
-      value: Kyle Workspace
+      value: level1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
