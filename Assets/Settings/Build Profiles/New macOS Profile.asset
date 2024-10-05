@@ -29,6 +29,12 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/tutorialLevel.unity
   - m_enabled: 1
+    m_path: Assets/Scenes/level1.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/level2.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/level3.unity
+  - m_enabled: 1
     m_path: Assets/Scenes/winScreen.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
