@@ -11,6 +11,7 @@ public class levelSelectController : MonoBehaviour
     public void LevelOne()
     {
         SceneManager.LoadScene("level1");
+        Debug.Log("button pressed");
     }
     public void LevelTwo()
     {
