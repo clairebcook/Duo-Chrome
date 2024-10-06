@@ -1,5 +1,3 @@
-
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,8 +10,15 @@ public class levelSelectController : MonoBehaviour
 
     public void LevelOne()
     {
-        //SceneManager.LoadScene("levelSelect");
-        //use this one to add the first level once it is created
+        SceneManager.LoadScene("level1");
+    }
+    public void LevelTwo()
+    {
+        SceneManager.LoadScene("level2");
+    }
+    public void LevelThree()
+    {
+        SceneManager.LoadScene("level3");
     }
 
     public void MainMenu()

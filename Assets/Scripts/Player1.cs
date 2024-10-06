@@ -69,9 +69,10 @@ public class Player1 : MonoBehaviour
             isDashing = true;
             canDash = false;
             trail.emitting = true;
-            am.playDash();
             dashingDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-            
+
+            StartCoroutine(DashSound());
+
             if (dashingDir == Vector2.zero) {
                 dashingDir = new Vector2(transform.localScale.x, 0);
             }
@@ -154,7 +155,7 @@ public class Player1 : MonoBehaviour
         // set active to false and have the player jump out of the level
         _active = false;
         boxCollider.enabled = false;
-        am.playDeath();
+        StartCoroutine(DeathSound());
         Jump();
 
         // activate the respawn coroutine
@@ -180,6 +181,18 @@ public class Player1 : MonoBehaviour
         yield return new WaitForSeconds(dashingTime);
         trail.emitting = false;
         isDashing = false;
+    }
+
+    // sound of death coroutine
+    private IEnumerator DeathSound() {
+        am.playDeath();
+        yield return new WaitForSeconds(1f);
+    }
+
+    // sound for dash coroutine
+    private IEnumerator DashSound() {
+        am.playDash();
+        yield return new WaitForSeconds(1f);
     }
 
 }
