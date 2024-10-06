@@ -3,14 +3,14 @@ using UnityEngine.UI;
 
 public class volumeSlider : MonoBehaviour
 {
-    public Slider volumeSlider;
+    public Slider volumeSlide;
 
     void Start()
     {
-        volumeSlider.value = PlayerPrefs.GetFloat("Volume", 0.5f);
-        AudioListener.volume = volumeSlider.volume;
+        volumeSlide.value = PlayerPrefs.GetFloat("Volume", 0.5f);
+        AudioListener.volume = volumeSlide.volume;
 
-        volumeSlider.onValueChanged.AddListener(SetVolume);
+        volumeSlide.onValueChanged.AddListener(SetVolume);
     }
 
     public void SetVolume(float volume)
