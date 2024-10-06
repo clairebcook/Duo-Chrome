@@ -10,6 +10,7 @@ public class EasterEgg : MonoBehaviour
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
+        audioS = GetComponent<AudioSource>();
     }
 
     void Update() {
