@@ -4776,11 +4776,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4830279432020558216, guid: aeda340ee4f0c6846aa9d60da879ea47, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4830279432020558216, guid: aeda340ee4f0c6846aa9d60da879ea47, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4830279432020558216, guid: aeda340ee4f0c6846aa9d60da879ea47, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26373,6 +26373,7 @@ MonoBehaviour:
   xMax: 82.6
   yMin: 0
   yMax: 5
+  cam: {fileID: 0}
 --- !u!4 &1736841454 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8474919440729423541, guid: db9de73479a124402b34a32fe2c7fee8, type: 3}
