@@ -17,9 +17,4 @@ public class MainMenuController : MonoBehaviour
     {
         SceneManager.LoadScene("gameControls");
     }
-
-    public void OpenSettings()
-    {
-        SceneManager.LoadScene("settings");
-    }
 }
