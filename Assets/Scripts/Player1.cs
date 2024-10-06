@@ -56,7 +56,6 @@ public class Player1 : MonoBehaviour
 
     void Update()
     {
-        // If not active.. die
         if (!_active) {
             return;
         }
@@ -80,25 +79,20 @@ public class Player1 : MonoBehaviour
             StartCoroutine(StopDashing());
         }
 
-        // Handle Dashing
+        // Handle while dashing
         if (isDashing) {
             rb.linearVelocity = dashingDir.normalized * dashingVelocity;
             return;
         }
 
-        // can we dash?
         if (isGrounded) {
             canDash = true;
         }
     
 
-        // Handle movement
+        // handle animations, movement, and jumping
         Move();
-
-        // Handle Animation
         ControlAnimation();
-
-        // Handle jumping
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded != false)
         {
             Jump();
@@ -112,10 +106,8 @@ public class Player1 : MonoBehaviour
         // Get horizontal input (A/D keys or arrow keys)
         float moveInput = Input.GetAxis("Horizontal");
         
-        // Apply movement to the Rigidbody2D
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
-        // Flip the sprite based on movement direction
         if (moveInput != 0)
         {
             spriteRenderer.flipX = moveInput < 0;
@@ -158,7 +150,6 @@ public class Player1 : MonoBehaviour
         StartCoroutine(DeathSound());
         Jump();
 
-        // activate the respawn coroutine
         StartCoroutine(Respawn());
     }
 

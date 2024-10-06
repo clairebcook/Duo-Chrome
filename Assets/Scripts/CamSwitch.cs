@@ -1,19 +1,31 @@
 using UnityEngine;
-// on collision with a player, the camera switch updates the camera min and maxes
+
+// On trigger with a player, the camera switches between static and dynamic positions
 public class CamSwitch : MonoBehaviour
 {
-    // camera settings
-    public float cameraMinX;
-    public float cameraMaxX;
-    public float cameraMinY;
-    public float cameraMaxY;
-    private void OnCollisionEnter2D(Collision2D other) {
-        var player = other.collider.GetComponent<Player1>();
-        var cam = GetComponent<CameraController>();
+    public Vector3 staticPosition;
+    public float zoomLevel = 5f;
 
-        if (player != null) {
-            cam.changeMinMax(cameraMinX, cameraMaxX, cameraMinY, cameraMaxY);
+    public CameraController camController; 
+
+    void Start()
+    {
+        if (camController == null)
+        {
+            camController = Camera.main.GetComponent<CameraController>();
         }
+    }
 
+    // Use OnTriggerEnter2D to switch between static and dynamic positions when the player enters the trigger area
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        var player = other.GetComponent<Player1>();
+
+        if (player != null && camController != null)
+        {
+        
+            camController.SetStaticPosition(staticPosition, zoomLevel);
+
+        }
     }
 }
