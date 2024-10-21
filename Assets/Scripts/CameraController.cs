@@ -58,7 +58,6 @@ public class CameraController : MonoBehaviour
         transform.position = targetPosition;
     }
 
-    // Method to switch camera bounds
     public void changeMinMax(float minX, float maxX, float minY, float maxY)
     {
         xMin = minX;
@@ -67,7 +66,6 @@ public class CameraController : MonoBehaviour
         yMax = maxY;
     }
 
-    // Method to move the camera to a static position and stop following
     public void SetStaticPosition(Vector3 position, float zoomLevel)
     {
         followTarget = false; 
@@ -80,7 +78,6 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    // Method to resume following the camera target and reset zoom level
     public void ResumeFollowing()
     {
         followTarget = true;

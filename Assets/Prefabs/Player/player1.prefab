@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 6109424793411640636}
   - component: {fileID: 7885178525965177061}
   - component: {fileID: 1922777113847039949}
-  - component: {fileID: 7601340581351080472}
   - component: {fileID: 4368714961608246113}
   m_Layer: 0
   m_Name: player1
@@ -178,14 +177,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 462305746b37747369d612b8ed538d13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {x: 0, y: 0}
   moveSpeed: 5
   jumpForce: 12
   dashingVelocity: 0
   dashingTime: 0
+  respawnPoint: {x: 0, y: 0}
+  audioManager: {fileID: 0}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  boxSize: {x: 0, y: 0}
+  castDistance: 0
 --- !u!95 &1922777113847039949
 Animator:
   serializedVersion: 7
@@ -208,27 +210,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7601340581351080472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915196290630512863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7db60f451a25e84ea5d592de3fedaa3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dashingPower: 24
-  dashingTime: 0.2
-  dashingCooldown: 1
-  tr: {fileID: 4368714961608246113}
-  moveSpeed: 5
-  jumpForce: 12
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!96 &4368714961608246113
 TrailRenderer:
   serializedVersion: 3
