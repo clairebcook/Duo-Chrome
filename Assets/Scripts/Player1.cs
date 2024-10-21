@@ -1,0 +1,189 @@
+using System.Collections;
+using Unity.VisualScripting;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
+
+public class Player1 : MonoBehaviour
+{
+    private Rigidbody2D rb;
+    private CapsuleCollider2D boxCollider;
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
+    private TrailRenderer trail;
+    private bool _active = true;
+
+    // Player movement settings
+    [Header("Move and Jump Controls")]
+    public float moveSpeed = 5f;
+    public float jumpForce = 10f;
+
+    // Dashing Controls
+    [Header("Dashing")]
+    public float dashingVelocity;
+    public float dashingTime;
+    private Vector2 dashingDir;
+    private bool isDashing;
+    private bool canDash = true;
+
+    [Header("Respawn")]
+    public Vector2 respawnPoint;
+
+    [Header("Audio")]
+    public AudioManager am;
+    
+    [Header("Ground")]
+    public LayerMask groundLayer;
+
+    // Ground and Dash check
+    private bool isGrounded;
+    private bool dashInput;
+
+    // player box collider settings
+    [Header("Collider")]
+    public Vector2 boxSize;
+    public float castDistance;
+
+    void Start()
+    {
+        // Getting components
+        rb = GetComponent<Rigidbody2D>();
+        boxCollider = GetComponent<CapsuleCollider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        trail = GetComponent<TrailRenderer>();
+    }
+
+    void Update()
+    {
+        if (!_active) {
+            return;
+        }
+
+        dashInput = Input.GetKeyDown(KeyCode.LeftShift); 
+        isGrounded = IsGrounded();
+
+        // Handle Dash
+        if (dashInput && canDash) {
+            isDashing = true;
+            canDash = false;
+            trail.emitting = true;
+            dashingDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+            StartCoroutine(DashSound());
+
+            if (dashingDir == Vector2.zero) {
+                dashingDir = new Vector2(transform.localScale.x, 0);
+            }
+
+            StartCoroutine(StopDashing());
+        }
+
+        // Handle while dashing
+        if (isDashing) {
+            rb.linearVelocity = dashingDir.normalized * dashingVelocity;
+            return;
+        }
+
+        if (isGrounded) {
+            canDash = true;
+        }
+    
+
+        // handle animations, movement, and jumping
+        Move();
+        ControlAnimation();
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded != false)
+        {
+            Jump();
+            am.playJump();
+        }
+
+    }
+
+    void Move()
+    {
+        // Get horizontal input (A/D keys or arrow keys)
+        float moveInput = Input.GetAxis("Horizontal");
+        
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+
+        if (moveInput != 0)
+        {
+            spriteRenderer.flipX = moveInput < 0;
+        } 
+
+        // check if sprite should be set to running
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) {
+            animator.SetBool("isRunning", true);
+        } else {
+            animator.SetBool("isRunning", false);
+        }
+    }
+
+    // control what animation is playing at the given moment
+    void ControlAnimation() {
+        animator.SetBool("Jumped", !isGrounded);
+    }
+
+    void Jump()
+    {
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+    }
+
+    bool IsGrounded()
+    {
+        // Check if the player is touching the ground using a raycast
+        return Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer) != false;
+    }
+
+    // set up the wireframe box collider
+    private void OnDrawGizmos() {
+        Gizmos.DrawWireCube(transform.position - transform.up * castDistance, boxSize);
+    }
+
+    // Handle Death
+    public void Die() {
+        // set active to false and have the player jump out of the level
+        _active = false;
+        boxCollider.enabled = false;
+        StartCoroutine(DeathSound());
+        Jump();
+
+        StartCoroutine(Respawn());
+    }
+
+    // Handle respawn point
+    public void setRespawn(Vector2 respawn) {
+        respawnPoint = respawn;
+    }
+
+    // Coroutine for respawn
+    private IEnumerator Respawn() {
+        yield return new WaitForSeconds(1f);
+        transform.position = respawnPoint;
+        _active = true;
+        boxCollider.enabled = true;
+        Jump();
+    }
+
+    // Coroutine for dashing
+    private IEnumerator StopDashing() {
+        yield return new WaitForSeconds(dashingTime);
+        trail.emitting = false;
+        isDashing = false;
+    }
+
+    // sound of death coroutine
+    private IEnumerator DeathSound() {
+        am.playDeath();
+        yield return new WaitForSeconds(1f);
+    }
+
+    // sound for dash coroutine
+    private IEnumerator DashSound() {
+        am.playDash();
+        yield return new WaitForSeconds(1f);
+    }
+
+}

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelSelectController : MonoBehaviour
+public class levelSelectController : MonoBehaviour
 {
     public void TutorialLevel()
     {

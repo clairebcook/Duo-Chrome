@@ -4,17 +4,19 @@ public class BackgroundController : MonoBehaviour
 {
     public Camera cam;
     public Color[] colors;
-    public Player player;
-    public AudioManager audioManager;
+    public Player1 player;
+    public AudioManager am;
 
     private int currentColor = 0;
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         cam.backgroundColor = colors[0];
         DisableObstacles(1, 0);
     }
 
+    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
@@ -23,15 +25,18 @@ public class BackgroundController : MonoBehaviour
             DisableObstacles(currentColor, nextColor);
             currentColor = nextColor;
             cam.backgroundColor = colors[currentColor];
-            audioManager.playFlip();
+            am.playFlip();
         }
     }
 
     void DisableObstacles(int current, int next)
     {
         Obstacle[] obstacles = Object.FindObjectsByType<Obstacle>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        //Debug.Log("Obstacles: " + obstacles.Length);
         string toDisable = "Color" + next;
+        Debug.Log("toDis: " + toDisable);
         string toEnable = "Color" + current;
+        Debug.Log("toEnable: " + toEnable);
         foreach (Obstacle obstacle in obstacles)
         {
             if (obstacle.gameObject.tag==toDisable) obstacle.gameObject.SetActive(false);
@@ -48,6 +53,7 @@ public class BackgroundController : MonoBehaviour
             if (hitCollider.gameObject.tag == killColor)
             {
                 player.Die();
+                Debug.Log("Player is dead");
             }
         }
     }

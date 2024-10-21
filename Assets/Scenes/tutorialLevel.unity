@@ -2028,7 +2028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4368714961608246113, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: m_SortingOrder
-      value: -7
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4368714961608246113, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: m_Parameters.numCapVertices
@@ -2150,10 +2150,6 @@ PrefabInstance:
       propertyPath: dashingTime
       value: 0.2
       objectReference: {fileID: 0}
-    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
-      propertyPath: audioManager
-      value: 
-      objectReference: {fileID: 67687822}
     - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: castDistance
       value: 0.6
@@ -11451,10 +11447,6 @@ PrefabInstance:
       propertyPath: nextLevel
       value: level1
       objectReference: {fileID: 0}
-    - target: {fileID: 9146331834058330058, guid: 6739324f644c3404eb5f98bb6cdfb53f, type: 3}
-      propertyPath: audioManager
-      value: 
-      objectReference: {fileID: 67687822}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11954,10 +11946,6 @@ PrefabInstance:
       propertyPath: switchKey
       value: 102
       objectReference: {fileID: 0}
-    - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
-      propertyPath: audioManager
-      value: 
-      objectReference: {fileID: 67687822}
     - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
       propertyPath: colors.Array.data[0].b
       value: 0

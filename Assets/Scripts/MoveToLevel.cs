@@ -3,14 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class MoveToLevel : MonoBehaviour
 {
-        public AudioManager audioManager;
+        public AudioManager am;
                 
        public string nextLevel;
        
        private void OnCollisionEnter2D(Collision2D other) {
-        var player = other.collider.GetComponent<Player>();
+        var player = other.collider.GetComponent<Player1>();
         if (player != null) {
-            audioManager.playDoor();
+            am.playDoor();
             SceneManager.LoadScene(nextLevel);
         }
     }
