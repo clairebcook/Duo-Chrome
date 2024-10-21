@@ -10412,6 +10412,10 @@ PrefabInstance:
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -6211158428353224919, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1553261700}
+    - target: {fileID: -6211158428353224919, guid: 27f7a8c518aad4f5dbac77bb1f6a6654, type: 3}
       propertyPath: castDistance
       value: 0.6
       objectReference: {fileID: 0}
@@ -31932,6 +31936,10 @@ PrefabInstance:
       value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1553261700}
+    - target: {fileID: 3386107501373375404, guid: 98db4c7e061504362ad2f9a3dcbcc7f8, type: 3}
       propertyPath: colors.Array.data[0].b
       value: 0
       objectReference: {fileID: 0}
@@ -32063,6 +32071,10 @@ PrefabInstance:
       propertyPath: nextLevel
       value: winScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 9146331834058330058, guid: 6739324f644c3404eb5f98bb6cdfb53f, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1553261700}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

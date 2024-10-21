@@ -3,10 +3,10 @@ using System;
 using System.Collections;
 
 
-public class OnDeath : MonoBehaviour
+public class MakeDeadly : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D other) {
-        var player = other.collider.GetComponent<Player1>();
+        var player = other.collider.GetComponent<Player>();
 
         if (player != null) {
             player.Die();

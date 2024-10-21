@@ -1,6 +1,5 @@
 using UnityEngine;
 
-// On trigger with a player, the camera switches between static and dynamic positions
 public class CamSwitchBack : MonoBehaviour
 {
 
@@ -15,10 +14,9 @@ public class CamSwitchBack : MonoBehaviour
         }
     }
 
-    // Use OnTriggerEnter2D to switch between static and dynamic positions when the player enters the trigger area
     private void OnTriggerEnter2D(Collider2D other)
     {
-        var player = other.GetComponent<Player1>();
+        var player = other.GetComponent<Player>();
 
         if (player != null && camController != null)
         {

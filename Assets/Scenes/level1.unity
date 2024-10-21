@@ -1481,7 +1481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915196290630512863, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: m_Name
-      value: player1
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3168554281919859453, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: m_Mass
@@ -1615,6 +1615,10 @@ PrefabInstance:
       propertyPath: dashingTime
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 395773471}
     - target: {fileID: 7885178525965177061, guid: 3af3b03a83cd04eb582cf8bf79a52723, type: 3}
       propertyPath: castDistance
       value: 0.6
@@ -6374,6 +6378,10 @@ PrefabInstance:
       propertyPath: nextLevel
       value: level2
       objectReference: {fileID: 0}
+    - target: {fileID: 9146331834058330058, guid: 6739324f644c3404eb5f98bb6cdfb53f, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 395773471}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11983,7 +11991,7 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 0}
   - {r: 1, g: 1, b: 1, a: 0}
   player: {fileID: 528377519}
-  am: {fileID: 0}
+  audioManager: {fileID: 395773471}
 --- !u!1001 &1422969691
 PrefabInstance:
   m_ObjectHideFlags: 0

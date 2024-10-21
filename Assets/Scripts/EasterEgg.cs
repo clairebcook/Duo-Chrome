@@ -3,38 +3,35 @@ using UnityEngine;
 
 public class EasterEgg : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    private Rigidbody2D rigidBody;
     public float collectForce = 5;
 
-    public AudioSource audioS;
+    public AudioSource audioSource;
 
     void Start() {
-        rb = GetComponent<Rigidbody2D>();
-        audioS = GetComponent<AudioSource>();
+        rigidBody = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update() {
 
     }
 
-    // called on the easter egg when the player collides with it
     private IEnumerator CollectMe() {
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, collectForce);
+        rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, collectForce);
         yield return new WaitForSeconds(1);
         Destroy(gameObject);
     }
 
-    // audio coroutine
     private IEnumerator PlayJingle() {
-        if (audioS != null) {
-            audioS.Play();
+        if (audioSource != null) {
+            audioSource.Play();
         }
         yield return new WaitForSeconds(1);
     }
 
-    // collect the item when walked on
     private void OnTriggerEnter2D(Collider2D other) {
-        var player = other.GetComponent<Player1>();
+        var player = other.GetComponent<Player>();
 
         if (player != null) {
             StartCoroutine(PlayJingle());
